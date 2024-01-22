@@ -7,6 +7,10 @@ module.exports = {
         '13':'3.25rem'
       }
     },
+    fontFamily: {
+      'Montserrat':['Montserrat'],
+      'Poppins':['Poppins']
+    }
   },
   plugins: [],
 }

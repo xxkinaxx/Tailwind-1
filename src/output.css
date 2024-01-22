@@ -544,14 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-96 {
-  margin: 24rem;
-}
-
-.m-1 {
-  margin: 0.25rem;
-}
-
 .m-13 {
   margin: 3.25rem;
 }
@@ -560,8 +552,9 @@ video {
   margin: 1.5rem;
 }
 
-.-m-6 {
-  margin: -1.5rem;
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .my-6 {
@@ -569,39 +562,24 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .-ml-3 {
   margin-left: -0.75rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .-ml-6 {
   margin-left: -1.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
-}
-
-.size-44 {
-  width: 11rem;
-  height: 11rem;
-}
-
-.size-3\/4 {
-  width: 75%;
-  height: 75%;
 }
 
 .size-2\/4 {
@@ -613,12 +591,12 @@ video {
   border-width: 1px;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .pb-6 {
@@ -629,17 +607,28 @@ video {
   padding-left: 1.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-center {
+  text-align: center;
+}
+
+.font-Montserrat {
+  font-family: Montserrat;
+}
+
+.font-Poppins {
+  font-family: Poppins;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
