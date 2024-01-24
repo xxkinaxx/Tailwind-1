@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Span</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <h1 class="text-center font-Poppins text-5xl font-extrabold underline">Spanning Columns</h1>
+    <hr class="h-[4px] bg-slate-600 mt-3">
+    <div class="grid grid-cols-3 gap-4 p-3">
+        <div class="bg-sky-500 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-rose-500 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">2</p>
+        </div>
+        <div class="bg-lime-500 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">3</p>
+        </div>
+        <div class="bg-violet-500 px-4 py-10 rounded-lg shadow-md col-span-2">
+            <p class="text-center">4 & 5</p>
+        </div>
+        <div class="bg-yellow-500 px-4 py-10 rounded-lg shadow-md">
+            <p class="text-center">6</p>
+        </div>
+    </div>
+    <h1 class="text-center font-Poppins text-5xl font-extrabold underline">Spanning Rows</h1>
+    <hr class="h-[4px] bg-slate-600 mt-3">
+    <div class="grid grid-cols-3 gap-4 p-3">
+        <div class="bg-yellow-300 px-4 py-10 rounded-lg shadow-sm">
+            <p class="text-center">1</p>
+        </div>
+        <div class="bg-slate-300 px-4 py-10 rounded-lg shadow-sm">
+            <p class="text-center">2</p>
+        </div>
+        <div class="bg-rose-300 px-4 py-10 rounded-lg shadow-sm row-span-2">
+            <p class="text-center">3 & 6</p>
+        </div>
+        <div class="bg-lime-300 px-4 py-10 rounded-lg shadow-sm">
+            <p class="text-center">4</p>
+        </div>
+        <div class="bg-blue-300 px-4 py-10 rounded-lg shadow-sm">
+            <p class="text-center">5</p>
+        </div>
+    </div>
+</body>
+</html>
